@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "brightcove_cms_api"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Dilkhush Soni"]
   spec.email         = ["dilkhushsoni2010@gmail.com"]
 
   spec.summary       = %q{A simple wrapper around Brightcove's CMS API}
-  spec.homepage      = "https://github.com/nhsuk/brightcove-cmsapi"
+  spec.homepage      = "https://github.com/dilkhush/brightcove_cms_api"
   spec.license       = "MIT"
 
   spec.files         = ["lib/brightcove_cms_api.rb", "lib/brightcove_cms_api/video.rb", "lib/brightcove_cms_api/version.rb", "lib/brightcove_cms_api/errors.rb"]
